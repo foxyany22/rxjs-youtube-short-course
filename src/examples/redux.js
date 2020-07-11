@@ -50,4 +50,3 @@ document.getElementById('decrement').addEventListener('click', () => {
 document.getElementById('add').addEventListener('click', () => {
     store$.dispatch({ type: 'ADD', payload: 10 });
 });
-
